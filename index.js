@@ -1,25 +1,23 @@
-module.exports = {
-  create: require('./create')
-  , clone: require('./clone')
-  , copy: require('./copy')
-  , identity: require('./identity')
-  , transpose: require('./transpose')
-  , invert: require('./invert')
-  , adjoint: require('./adjoint')
-  , determinant: require('./determinant')
-  , multiply: require('./multiply')
-  , translate: require('./translate')
-  , scale: require('./scale')
-  , rotate: require('./rotate')
-  , rotateX: require('./rotateX')
-  , rotateY: require('./rotateY')
-  , rotateZ: require('./rotateZ')
-  , fromRotationTranslation: require('./fromRotationTranslation')
-  , fromQuat: require('./fromQuat')
-  , frustum: require('./frustum')
-  , perspective: require('./perspective')
-  , perspectiveFromFieldOfView: require('./perspectiveFromFieldOfView')
-  , ortho: require('./ortho')
-  , lookAt: require('./lookAt')
-  , str: require('./str')
-}
+export { default as create } from './create.js';
+export { default as clone } from './clone.js';
+export { default as copy } from './copy.js';
+export { default as identity } from './identity.js';
+export { default as transpose } from './transpose.js';
+export { default as invert } from './invert.js';
+export { default as adjoint } from './adjoint.js';
+export { default as determinant } from './determinant.js';
+export { default as multiply } from './multiply.js';
+export { default as translate } from './translate.js';
+export { default as scale } from './scale.js';
+export { default as rotate } from './rotate.js';
+export { default as rotateX } from './rotateX.js';
+export { default as rotateY } from './rotateY.js';
+export { default as rotateZ } from './rotateZ.js';
+export { default as fromRotationTranslation } from './fromRotationTranslation.js';
+export { default as fromQuat } from './fromQuat.js';
+export { default as frustum } from './frustum.js';
+export { default as perspective } from './perspective.js';
+export { default as perspectiveFromFieldOfView } from './perspectiveFromFieldOfView.js';
+export { default as ortho } from './ortho.js';
+export { default as lookAt } from './lookAt.js';
+export { default as str } from './str.js';

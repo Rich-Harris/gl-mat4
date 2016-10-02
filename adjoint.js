@@ -1,4 +1,4 @@
-module.exports = adjoint;
+export default adjoint;
 
 /**
  * Calculates the adjugate of a mat4

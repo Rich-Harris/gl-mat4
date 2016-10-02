@@ -1,4 +1,4 @@
-module.exports = scale;
+export default scale;
 
 /**
  * Scales the mat4 by the dimensions in the given vec3

@@ -1,4 +1,4 @@
-module.exports = rotateZ;
+export default rotateZ;
 
 /**
  * Rotates a matrix by the given angle around the Z axis

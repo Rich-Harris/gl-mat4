@@ -1,4 +1,4 @@
-module.exports = invert;
+export default invert;
 
 /**
  * Inverts a mat4

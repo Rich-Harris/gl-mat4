@@ -1,4 +1,4 @@
-module.exports = create;
+export default create;
 
 /**
  * Creates a new identity mat4

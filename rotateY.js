@@ -1,4 +1,4 @@
-module.exports = rotateY;
+export default rotateY;
 
 /**
  * Rotates a matrix by the given angle around the Y axis

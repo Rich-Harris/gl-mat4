@@ -1,4 +1,4 @@
-module.exports = perspective;
+export default perspective;
 
 /**
  * Generates a perspective projection matrix with the given bounds

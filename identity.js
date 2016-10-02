@@ -1,4 +1,4 @@
-module.exports = identity;
+export default identity;
 
 /**
  * Set a mat4 to the identity matrix

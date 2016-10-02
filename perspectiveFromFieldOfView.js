@@ -1,4 +1,4 @@
-module.exports = perspectiveFromFieldOfView;
+export default perspectiveFromFieldOfView;
 
 /**
  * Generates a perspective projection matrix with the given field of view.

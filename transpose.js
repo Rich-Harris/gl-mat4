@@ -1,4 +1,4 @@
-module.exports = transpose;
+export default transpose;
 
 /**
  * Transpose the values of a mat4

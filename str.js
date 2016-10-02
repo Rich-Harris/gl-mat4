@@ -1,4 +1,4 @@
-module.exports = str;
+export default str;
 
 /**
  * Returns a string representation of a mat4

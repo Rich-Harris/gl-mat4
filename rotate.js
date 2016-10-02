@@ -1,4 +1,4 @@
-module.exports = rotate;
+export default rotate;
 
 /**
  * Rotates a mat4 by the given angle

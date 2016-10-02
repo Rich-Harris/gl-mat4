@@ -1,4 +1,4 @@
-module.exports = fromRotationTranslation;
+export default fromRotationTranslation;
 
 /**
  * Creates a matrix from a quaternion rotation and vector translation

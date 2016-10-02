@@ -1,4 +1,4 @@
-module.exports = frustum;
+export default frustum;
 
 /**
  * Generates a frustum matrix with the given bounds

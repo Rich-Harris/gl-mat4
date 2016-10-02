@@ -1,4 +1,4 @@
-module.exports = determinant;
+export default determinant;
 
 /**
  * Calculates the determinant of a mat4

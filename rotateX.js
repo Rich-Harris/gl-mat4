@@ -1,4 +1,4 @@
-module.exports = rotateX;
+export default rotateX;
 
 /**
  * Rotates a matrix by the given angle around the X axis

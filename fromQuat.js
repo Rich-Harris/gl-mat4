@@ -1,4 +1,4 @@
-module.exports = fromQuat;
+export default fromQuat;
 
 /**
  * Creates a matrix from a quaternion rotation.

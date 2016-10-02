@@ -1,3 +1,18 @@
+# gl-mat4-esm
+
+[gl-mat4](https://github.com/stackgl/gl-mat4) ported to ES modules, so that you can do this sort of thing...
+
+```js
+import * as mat4 from 'gl-mat4-esm';
+
+const view = mat4.lookAt(...);
+```
+
+...and take advantage of tree-shaking via Rollup and Webpack 2, rather than having to have a separate `require` statement for each module.
+
+----
+
+
 # gl-mat4 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 Part of a fork of [@toji](http://github.com/toji)'s
@@ -75,7 +90,7 @@ var scale = require('gl-mat4/scale')
 
   Creates a matrix from a quaternion rotation and vector translation
   This is equivalent to (but much faster than):
-  
+
 ```js
   mat4.identity(dest);
   mat4.translate(dest, vec);

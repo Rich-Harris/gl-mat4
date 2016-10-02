@@ -1,4 +1,4 @@
-module.exports = translate;
+export default translate;
 
 /**
  * Translate a mat4 by the given vector

@@ -1,4 +1,4 @@
-module.exports = copy;
+export default copy;
 
 /**
  * Copy the values from one mat4 to another

@@ -1,4 +1,4 @@
-module.exports = ortho;
+export default ortho;
 
 /**
  * Generates a orthogonal projection matrix with the given bounds

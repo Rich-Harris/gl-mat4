@@ -1,6 +1,6 @@
-var identity = require('./identity');
+import identity from './identity.js';
 
-module.exports = lookAt;
+export default lookAt;
 
 /**
  * Generates a look-at matrix with the given eye position, focal point, and up axis

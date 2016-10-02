@@ -1,4 +1,4 @@
-module.exports = clone;
+export default clone;
 
 /**
  * Creates a new mat4 initialized with values from an existing matrix
